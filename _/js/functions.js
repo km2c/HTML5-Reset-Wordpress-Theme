@@ -1,11 +1,10 @@
-// remap jQuery to $
-(function($){})(window.jQuery);
-
-
+//Map $ back to jQuery
+(function($){
+    
 /* trigger when page is ready */
-jQuery(document).ready(function (){
+$(document).ready(function (){
 
-	// your functions go here
+    // your functions go here
 
 });
 
@@ -13,11 +12,15 @@ jQuery(document).ready(function (){
 /* optional triggers
 
 $(window).load(function() {
-	
+    
 });
 
 $(window).resize(function() {
-	
+    
 });
 
-*/
+*/    
+
+})(jQuery);
+
+
